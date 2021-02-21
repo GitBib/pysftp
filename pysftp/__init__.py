@@ -18,7 +18,7 @@ from pysftp.exceptions import (CredentialException, ConnectionException,
 from pysftp.helpers import (st_mode_to_int, WTCallbacks, path_advance,
                             path_retreat, reparent, walktree, cd, known_hosts)
 
-__version__ = "0.2.9"
+__version__ = "0.2.10"
 
 
 # pylint: disable = R0913,C0302
