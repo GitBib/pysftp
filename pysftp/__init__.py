@@ -11,7 +11,7 @@ from stat import S_ISDIR, S_ISREG
 
 import paramiko
 from paramiko import AgentKey, RSAKey, DSSKey, ECDSAKey
-from paramiko import SSHException  # make available
+from paramiko import SSHException
 
 from pysftp.exceptions import (CredentialException, ConnectionException,
                                HostKeysException)
