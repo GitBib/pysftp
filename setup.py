@@ -18,13 +18,13 @@ DESCRIPTION = "A friendly face on SFTP"
 
 setup(
     name="pysftp",
-    version="0.2.9",
+    version="0.2.10",
 
     packages=['pysftp', ],
 
     # Project uses reStructuredText, so ensure that the docutils get
     # installed or upgraded on the target machine
-    install_requires=['paramiko>=1.17'],
+    install_requires=['paramiko>=2.7.2'],
 
     # metadata for upload to PyPI
     author="Jeff Hinrichs",
